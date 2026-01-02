@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExtendedVaultsAndItems implements ModInitializer {
+public class ExtendedVaultsAndTanks implements ModInitializer {
 	public static final String ID = "EVaT";
 	public static final String NAME = "Extended Vaults and Tanks";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);

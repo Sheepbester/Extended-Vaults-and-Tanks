@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.sheepbester.EVaT.ExtendedVaultsAndItems"
+      "com.sheepbester.EVaT.ExtendedVaultsAndTanks"
     ]
   },
   "mixins": [
