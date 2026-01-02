@@ -1,6 +1,6 @@
-package com.example.modid.mixin;
+package com.sheepbester.EVaT.mixin;
 
-import com.example.modid.ExampleMod;
+import com.sheepbester.EVaT.ExtendedVaultsAndItems;
 
 import net.minecraft.client.Minecraft;
 
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(Minecraft.class)
 public class MinecraftMixin {
 	@Inject(method = "<init>", at = @At("TAIL"))
-	private void example$init(GameConfig gameConfig, CallbackInfo ci) {
-		ExampleMod.LOGGER.info("Hello from {}", ExampleMod.NAME);
+	private void EVaT$init(GameConfig gameConfig, CallbackInfo ci) {
+		ExtendedVaultsAndItems.LOGGER.info("Hello from {}", ExtendedVaultsAndItems.NAME);
 	}
 }

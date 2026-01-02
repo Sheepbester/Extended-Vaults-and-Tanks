@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "evat",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Extended Vaults and Tanks",
+  "description": "Longer, wider and taller Item Vaults and Fluid Tanks!",
   "authors": [
-    "Me!"
+    "Sheepbester"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/Sheepbester/Extended-Vaults-and-Tanks"
   },
-  "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/EVaT/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.sheepbester.EVaT.ExtendedVaultsAndItems"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "EVaT.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

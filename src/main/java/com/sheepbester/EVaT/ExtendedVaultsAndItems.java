@@ -1,4 +1,4 @@
-package com.example.modid;
+package com.sheepbester.EVaT;
 
 import com.simibubi.create.Create;
 
@@ -10,9 +10,9 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
-	public static final String ID = "modid";
-	public static final String NAME = "Example Mod";
+public class ExtendedVaultsAndItems implements ModInitializer {
+	public static final String ID = "EVaT";
+	public static final String NAME = "Extended Vaults and Tanks";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
