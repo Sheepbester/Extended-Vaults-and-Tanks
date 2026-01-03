@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.sheepbester.EVaT.mixin",
+  "package": "com.sheepbester.evat.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

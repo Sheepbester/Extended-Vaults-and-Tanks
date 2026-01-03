@@ -11,15 +11,15 @@
     "sources": "https://github.com/Sheepbester/Extended-Vaults-and-Tanks"
   },
   "license": "MIT",
-  "icon": "assets/EVaT/icon.png",
+  "icon": "assets/evat/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.sheepbester.EVaT.ExtendedVaultsAndTanks"
+      "com.sheepbester.evat.ExtendedVaultsAndTanks"
     ]
   },
   "mixins": [
-    "EVaT.mixins.json"
+    "evat.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

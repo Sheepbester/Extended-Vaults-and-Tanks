@@ -1,20 +1,18 @@
-package com.sheepbester.EVaT.mixin;
+package com.sheepbester.evat.mixin;
 
-import com.sheepbester.EVaT.ExtendedVaultsAndTanks;
-
-import net.minecraft.client.Minecraft;
-
-import net.minecraft.client.main.GameConfig;
+import com.sheepbester.evat.ExtendedVaultsAndTanks;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.RunArgs;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(Minecraft.class)
+@Mixin(MinecraftClient.class)
 public class MinecraftMixin {
 	@Inject(method = "<init>", at = @At("TAIL"))
-	private void EVaT$init(GameConfig gameConfig, CallbackInfo ci) {
+	private void EVaT$init(RunArgs args, CallbackInfo ci) {
 		ExtendedVaultsAndTanks.LOGGER.info("Hello from {}", ExtendedVaultsAndTanks.NAME);
 	}
 }
