@@ -1,5 +1,8 @@
 package com.sheepbester.evat;
 
+import com.sheepbester.evat.blocks.Sheepcube_Block;
+import com.sheepbester.evat.items.Sheepface_Item;
+import com.sheepbester.evat.registry.EvatGroup;
 import com.simibubi.create.Create;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
@@ -15,7 +18,9 @@ public class ExtendedVaultsAndTanks implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		EvatItems.initialize();
+		Sheepcube_Block.initialize();
+		Sheepface_Item.initialize();
+		EvatGroup.initialize();
 		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
 		LOGGER.info(EnvExecutor.unsafeRunForDist(
 				() -> () -> "{} is accessing Porting Lib from the client!",

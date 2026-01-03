@@ -1,3 +1,5 @@
 {
-  "item.evat.sheepface": "Sheepface"
+  "item.evat.sheepface": "Sheepface",
+  "block.evat.sheepcube": "Sheepcube",
+  "group.evat": "Extended Vaults and Tanks"
 }
