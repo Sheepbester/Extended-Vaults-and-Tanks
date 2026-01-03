@@ -17,6 +17,7 @@ public class ExtendedVaultsAndTanks implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ItemEntry.initialize();
 		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
 		LOGGER.info(EnvExecutor.unsafeRunForDist(
 				() -> () -> "{} is accessing Porting Lib from the client!",
